@@ -23,7 +23,7 @@ public abstract class AbstractHttpClient implements RestHttpClient {
             throw e;
         }
     }
-
+//todo maybe problem here
     @Override
     public <T> T get(String url, Class<T> response) {
         log.info("Get by url {}", url);

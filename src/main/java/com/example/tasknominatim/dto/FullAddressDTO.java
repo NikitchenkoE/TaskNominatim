@@ -9,7 +9,7 @@ import java.util.List;
 @Data
 public class FullAddressDTO {
     @JsonProperty("address")
-    private Object address;
+    private AddressDTO address;
 
     @JsonProperty("boundingbox")
     private List<String> boundingbox;
